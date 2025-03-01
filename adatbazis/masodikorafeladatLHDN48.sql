@@ -1,0 +1,1 @@
+SELECT DISTINCT nev from szeret where gyumolcs = 'alma' or gyumolcs = 'körte';
