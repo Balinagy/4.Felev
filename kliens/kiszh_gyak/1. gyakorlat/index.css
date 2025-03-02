@@ -1,0 +1,15 @@
+.loading {
+    position: fixed;
+    top: 0;
+    background-color: lightblue;
+    height: 2px;
+    z-index: 9000;
+}
+
+.zoomable {
+    transition: background-size 0.3s ease-in-out;
+}
+
+.zoomable.hovered {
+    background-size: 200% !important;
+}

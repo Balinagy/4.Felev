@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Színválasztó Komponens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        color-picker {
+            display: block;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 20px auto;
+            border: 2px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .red { background-color: red; color: white; }
+        .green { background-color: green; color: white; }
+        .blue { background-color: blue; color: white; }
+    </style>
+</head>
+<body>
+
+    <color-picker></color-picker>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
