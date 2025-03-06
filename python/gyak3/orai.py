@@ -148,3 +148,4 @@ print(b)
 b.clear()
 print(b) 
 """
+print(('*').join(['asd','asf',"fas"]))

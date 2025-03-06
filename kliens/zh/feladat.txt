@@ -1,0 +1,11 @@
+1. Az oldalon helyezkedjen el egy objektum (pl.: egy kör/téglalap alakú div).
+Görgetés hatására a színe folyamatosan, skálázva változzon, annak megfelelően, hogy éppen az oldal mely részénél tartunk!
+(Értelemszerűen legyen elég nagy az alakzat és az oldal ahhoz, hogy gördíteni lehessen; például kékből folyamatosan váltson pirossá az oldal aljára érve)
+
+2. Egységbezárás vagy webkomponens: Szerepeljen két gomb +/- jelzéssel, illetve egy felirat.
+A gombok megnyomásával a felirat betűmérete folyamatosan változzon!
+(+ hatására növelje, - hatására csökkentse a felirat betűméretét)
+
+3. Webkomponens: A komponens tartalmazzon n darab radio buttont és n darab hozzá tartozó input mezőt.
+Mindegyik input mező legyen kezdetben disabled, és csak az legyen módosítható, amelyhez tartozó radio button kiválasztásra került.
+(a darabszám paraméterben kerül átadásra a komponensnek)
